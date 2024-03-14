@@ -1,41 +1,42 @@
-## Cricket Live Score Chrome Extension
-This Chrome extension allows users to view live cricket scores directly from the browser using the Cricket Data API. The extension fetches real-time data asynchronously and displays relevant match details including match name, status, and live scores.
+# Cricket Live Score Chrome Extension
+
+This Chrome extension enables users to access live cricket scores directly within their browser using the Cricket Data API. The extension leverages asynchronous JavaScript to fetch real-time match data and presents it in an organized manner, including match names, statuses, and live scores.
 
 ## Installation
- 
- To use this extension, follow these steps:
+
+To utilize this extension, follow these straightforward steps:
 
 1. Clone or download the repository to your local machine.
-2. Navigate to chrome://extensions/ in your Chrome browser.
-3. Enable Developer mode in the top right corner.
+2. Open your Chrome browser and navigate to `chrome://extensions/`.
+3. Activate Developer mode in the top right corner.
 4. Click on "Load unpacked" and select the directory where you cloned or downloaded the repository.
-5. The extension should now be installed and visible in your Chrome browser.
+5. The extension will be successfully installed and will appear in your Chrome browser's toolbar.
 
 ## Usage
 
-Once the extension is installed, it will automatically fetch live cricket match data from the Cricket Data API and display it in a popup window when clicked on the extension icon in the browser toolbar.
+Once installed, the extension will automatically retrieve live cricket match data from the Cricket Data API. Simply click on the extension icon in the browser toolbar to view the latest match information in a popup window.
 
 ## Features
 
- . Real-time live cricket scores.
- . Displays match name, status, and live score details.
- . Asynchronous fetching of data for efficient performance.
- . Automatically updates with the latest match information.
+- Real-time live cricket scores.
+- Display of match names, statuses, and live score details.
+- Asynchronous data fetching ensures optimal performance.
+- Automatic updates with the most recent match information.
 
 ## How It Works
- 
- The extension fetches match data from the Cricket Data API using an asynchronous JavaScript function getMatchData(). This function makes a GET request to the API endpoint https://api.cricapi.com/v1/currentMatches with the required API key. It then filters the response to extract relevant data for ongoing matches and formats it for display.
 
- The extracted data includes match name, status, and live score details such as runs, wickets, and overs. Finally, the formatted data is injected into the extension popup HTML, where it is displayed to the user.
+The extension employs an asynchronous JavaScript function called `getMatchData()` to fetch match data from the Cricket Data API. This function sends a GET request to the API endpoint `https://api.cricapi.com/v1/currentMatches` with the necessary API key. It then filters the response to extract pertinent information for ongoing matches and formats it appropriately for display.
+
+The extracted data encompasses match names, statuses, and live score details like runs, wickets, and overs. Subsequently, the formatted data is injected into the extension popup HTML, where it is presented to the user.
 
 ## Contributing
-   
-   Contributions are welcome! If you'd like to contribute to this project, feel free to submit a pull request with your changes.
+
+Contributions to this project are highly encouraged! If you wish to contribute, please submit a pull request with your proposed changes.
 
 ## Credits
 
-   This extension is created and maintained by Tushar Singhal.
+This extension is developed and maintained by [Tushar Singhal](https://github.com/tsinghal451).
 
 ## License
-   
-   This project is licensed under the MIT License. Feel free to modify and distribute the code as per the terms of the license.
+
+This project is licensed under the [MIT License](LICENSE). Feel free to modify and distribute the code in accordance with the terms of the license.

@@ -5,11 +5,11 @@ This Chrome extension allows users to view live cricket scores directly from the
  
  To use this extension, follow these steps:
 
-Clone or download the repository to your local machine.
-Navigate to chrome://extensions/ in your Chrome browser.
-Enable Developer mode in the top right corner.
-Click on "Load unpacked" and select the directory where you cloned or downloaded the repository.
-The extension should now be installed and visible in your Chrome browser.
+1. Clone or download the repository to your local machine.
+2. Navigate to chrome://extensions/ in your Chrome browser.
+3. Enable Developer mode in the top right corner.
+4. Click on "Load unpacked" and select the directory where you cloned or downloaded the repository.
+5. The extension should now be installed and visible in your Chrome browser.
 
 ## Usage
 

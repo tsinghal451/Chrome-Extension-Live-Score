@@ -17,10 +17,10 @@ Once the extension is installed, it will automatically fetch live cricket match 
 
 ## Features
 
- Real-time live cricket scores.
- Displays match name, status, and live score details.
- Asynchronous fetching of data for efficient performance.
- Automatically updates with the latest match information.
+ . Real-time live cricket scores.
+ . Displays match name, status, and live score details.
+ . Asynchronous fetching of data for efficient performance.
+ . Automatically updates with the latest match information.
 
 ## How It Works
  

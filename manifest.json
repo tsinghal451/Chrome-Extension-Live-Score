@@ -1,0 +1,16 @@
+{
+  "name": "MATCH Details",
+  "version": "2",
+  "description": "Best Extension For Match Details",
+  "manifest_version": 3,
+  "author": "tushar singhal",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "My chrome extension",
+    "default_icon": {
+      "16": "cri.jpg",   // Specify the path to your 16x16 icon
+      "48": "cri.jpg",   // Specify the path to your 48x48 icon
+      "128": "cri.jpg"  // Specify the path to your 128x128 icon
+    }
+  }
+}
